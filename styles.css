@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .light-mode {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 20px;
+    cursor: pointer;
+  }
+  
+  input, select, textarea {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    background: #fff;
+    border: 1px solid #ddd;
+    margin: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card h3 {
+    margin: 10px 0;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
+  .home {
+    padding: 20px;
+  }
+  
+  .budget-filters {
+    display: flex;
+    align-items: center;
+  }
+  
+  .budget-filters label {
+    margin-right: 10px;
+  }
+  
+  .budget-filters input {
+    margin: 0 5px;
+  }
+  .destination-detail {
+    padding: 20px;
+  }
+  
+  .destination-detail img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .additional-images {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .additional-images img {
+    width: 48%;
+    height: auto;
+  }
+  .admin-form {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  .admin-form input,
+  .admin-form textarea {
+    margin-bottom: 15px;
+  }
+  
+  .admin-form button {
+    width: 100%;
+  }
+  
